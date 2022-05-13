@@ -20,3 +20,12 @@ number3();
 //with return
 let number4 = () => 40;
 console.log(number4())
+
+//single parameter pass
+let number5 = (value) => value + 10;
+console.log(number5(40));
+
+// multiple parameter pass
+
+let number6 = (num1, num2) => num1 + num2;
+console.log(number6(50,10));
